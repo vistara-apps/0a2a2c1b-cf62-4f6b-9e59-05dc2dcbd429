@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Users, Plus, X, Check } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-interface Contact {
+export interface Contact {
   id: string;
   name: string;
   type: 'farcaster' | 'sms' | 'email';

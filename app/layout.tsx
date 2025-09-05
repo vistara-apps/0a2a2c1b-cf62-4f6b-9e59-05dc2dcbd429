@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'State-specific legal rights, communication scripts, and real-time assistance during police interactions.',
   keywords: 'legal rights, police interactions, know your rights, legal assistance',
   authors: [{ name: 'RightsSphere Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
