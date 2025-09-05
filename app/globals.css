@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700 text-white min-h-screen;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-lg shadow-card;
+  }
+  
+  .glass-card-strong {
+    @apply bg-white bg-opacity-20 backdrop-blur-xl border border-white border-opacity-30 rounded-lg shadow-modal;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply glass-card text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-20 transition-all duration-200;
+  }
+  
+  .btn-alert {
+    @apply bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:from-red-600 hover:to-orange-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .metric-card {
+    @apply glass-card p-4 hover:bg-opacity-15 transition-all duration-200;
+  }
+  
+  .legal-guide-card {
+    @apply glass-card-strong p-6 hover:bg-opacity-25 transition-all duration-200 cursor-pointer;
+  }
+  
+  .script-button {
+    @apply glass-card p-4 text-left hover:bg-opacity-20 transition-all duration-200 cursor-pointer;
+  }
+  
+  .recording-button {
+    @apply w-16 h-16 rounded-full flex items-center justify-center transition-all duration-200 shadow-lg;
+  }
+  
+  .recording-active {
+    @apply bg-red-500 animate-pulse-slow;
+  }
+  
+  .recording-inactive {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
