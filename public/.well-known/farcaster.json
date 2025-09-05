@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "RightsSphere",
+    "subtitle": "Built with Zara",
+    "description": "RightsSphere is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app",
+    "splashImageUrl": "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app/image.png",
+    "tagline": "RightsSphere",
+    "screenshotUrls": [
+      "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app/screenshot.png",
+      "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://0a2a2c1bcf624f6b9e5905dc2dcbd429-2xdw.vercel.app/api/webhook"
+  }
+}
